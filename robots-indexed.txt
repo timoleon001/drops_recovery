@@ -1,0 +1,76 @@
+User-agent: Googlebot
+Allow: /
+
+Allow: *.js
+Allow: *.css
+Allow: *.jpg
+Allow: *.png
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
+Allow: *.pdf
+Allow: *.webp
+
+Allow: /wp-uploads/
+
+Disallow: /wp-admin
+Disallow: /author/*
+Disallow: /author/adminincub/
+Disallow: /wp-content/cache
+Disallow: /trackback
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.gz$
+
+User-agent: Yandexbot
+Allow: /
+
+Allow: *.js
+Allow: *.css
+Allow: *.jpg
+Allow: *.png
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
+Allow: *.pdf
+Allow: *.webp
+
+Allow: /wp-uploads/
+
+Disallow: /wp-admin
+Disallow: /author/*
+Disallow: /author/adminincub/
+Disallow: /wp-content/cache
+Disallow: /trackback
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.gz$
+
+User-agent: *
+Allow: /
+
+Allow: *.js
+Allow: *.css
+Allow: *.jpg
+Allow: *.png
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
+Allow: *.pdf
+Allow: *.webp
+
+Allow: /wp-uploads/
+
+Disallow: /wp-admin
+Disallow: /author/*
+Disallow: /author/adminincub/
+Disallow: /wp-content/cache
+Disallow: /trackback
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.gz$
+
+Disallow: /wp-login.php
+
+Host: http://site.com/
+Sitemap: http://site.com/sitemap_index.xml

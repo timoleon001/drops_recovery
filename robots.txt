@@ -1,0 +1,16 @@
+User-agent: Googlebot
+Disallow: *
+
+User-agent: Yandexbot
+Disallow: *
+
+User-agent: *
+Disallow: *
+
+User-agent: Screaming Frog SEO Spider
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /cdn-cgi/
+
+Host: http://site.com/
+Sitemap: http://site.com/sitemap_index.xml

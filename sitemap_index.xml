@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://site.com/post-sitemap.xml</loc>
+		<lastmod>2024-09-30T08:01:47+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://site.com/images_sitemap.xml</loc>
+		<lastmod>2024-09-30T08:09:37+00:00</lastmod>
+	</sitemap>
+</sitemapindex>

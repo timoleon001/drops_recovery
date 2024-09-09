@@ -6,7 +6,7 @@
 1. Ознакамливаемся с дропом который предстоит восстановить на сайте вебАрхива `https://web.archive.org/web/*/https://stomorey.com/`, где `*` означает показать архив за все время, а `https://stomorey.com/` сайт который нужно восстановить.
 2. Детально ознакамливаемся со снимками сайта по дням перебирая даты снимков когда сайт еще работал, имел актуальную версию и соответствует тематике. Открывать ссылки только синего цвета, зеленым помечены редиректы и там точно не будет
 
-![First image](https://github.com/timoleon001/drops_recovery/blob/main/images/img_01.png?raw=true)
+![First image](images/img_01.png?raw=true)
 
 3. Подобрав нужный снимок, перед сохранением, вносим изменения в адресную строку, где указана дата снимка `20171221145549` в конец добавить `id_`.
 Это поможет убрать из кода ссылки на `web.archive`.
@@ -18,44 +18,6 @@
 Привести html к стандарту HTML5, если код не соответствует
 
 [Пример](index.html)
-```
-<!DOCTYPE html>
-<html lang="ru-RU">
-    <head>
-        <meta charset="utf-8" >
-        <meta content="width=device-width, initial-scale=1, minimum-scale=1" name="viewport" >
-        <title>Сто морей | Туристическая компания</title>
-        <meta name="description" content="Сто морей - ваша туристическая компания, ">
-        <meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name="googlebot" >
-        <meta content="index, follow" name="yandex" >
-        <meta content="index, follow" name="robots" >
-        <link href="https://stomorey.com" hreflang="x-default" rel="alternate" >
-        <link href="https://stomorey.com" hreflang="ru" rel="alternate" >
-        <link href="https://stomorey.com" rel="canonical" >
-        <link rel="icon" href="/assets/img/favicons/favicon.ico" >
-        <link rel="stylesheet" href="/assets/plain/css/template.css" type="text/css" >
-    </head>
-    <body>
-        <header id="header">
-            <a href="#intro" class="b-header_logo b-header_logo__pic">
-                <img src="https://github.com/timoleon001/drops_recovery/blob/main/images/logo.png?raw=true" title="Vaims" alt="Logo company Dark"  height="100" class="m-transition" >
-            </a>
-            <nav class="b-header_nav">
-                <a href="#overview">поиск туров</a>
-                <a href="#steps">как купить тур</a>
-                <a href="#contacts">Контакты</a>
-            </nav>
-        </header>
-        <section class="b-intro b-intro__background b-section" id="intro">
-            <div class="b-intro_container container">
-                <h1 style="font-size:38px">ПОИСК ТУРОВ СО СКИДКОЙ 10%</h1>
-                <p style="font-size:30px">ЭТИ ТУРЫ ЕСТЬ У ВСЕХ, НО У НАС НА 10% ДЕШЕВЛЕ</p>
-            </div>
-        </section>
-        <script type="text/javascript" src="assets/plain/build/template.min.js"></script>
-    </body>
-</html>
-```
 
 6. Открыть этот домен или просто файл index.html в браузере и через консоль можно посмотреть все недостающие файлы.
 
@@ -97,12 +59,12 @@ wayback_machine_downloader https://site.com/wp-content --from 20230205104451
 После положительной проверки и разрешение от менеджера открытие сайта на индексирование просто удалить **robots.txt**, а **robots-indexed.txt** переименовываем в **robots.txt**
 
 Примеры
-[robots.txt](https://github.com/timoleon001/drops_recovery/blob/main/robots.txt) - сайт закрыт на индексирование
-[robots-indexed.txt](https://github.com/timoleon001/drops_recovery/blob/main/robots-indexed.txt) - на сайте разрешено интексирование поисковыми робатами, пример для WP
-[.htaccess](https://github.com/timoleon001/drops_recovery/blob/main/.htaccess)
-[sitemap_index.xml](https://github.com/timoleon001/drops_recovery/blob/main/sitemap_index.xml)
-[post-sitemap.xml](https://github.com/timoleon001/drops_recovery/blob/main/post-sitemap.xml)
-[images_sitemap.xml](https://github.com/timoleon001/drops_recovery/blob/main/images_sitemap.xml)
+[robots.txt](robots.txt) - сайт закрыт на индексирование
+[robots-indexed.txt](robots-indexed.txt) - на сайте разрешено интексирование поисковыми робатами, пример для WP
+[.htaccess](.htaccess)
+[sitemap_index.xml](sitemap_index.xml)
+[post-sitemap.xml](post-sitemap.xml)
+[images_sitemap.xml](images_sitemap.xml)
 
 post-sitemap.xml и images_sitemap.xml удобно создавать при помощи  Screaming Frog
 

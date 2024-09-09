@@ -20,7 +20,7 @@ https://prnt.sc/7dJFXEBb-uJT
 5. Произвести чистку `html` от мусора и стороннего кода такого как яндекс, гугл статистики и друго
 Привести html к стандарту HTML5, если код не соответствует
 
-[Пример](https://github.com/timoleon001/drops_recovery/index.html)
+[Пример](https://github.com/timoleon001/drops_recovery/blob/main/index.html)
 ```
 <!DOCTYPE html>
 <html lang="ru-RU">
@@ -101,12 +101,12 @@ wayback_machine_downloader https://site.com/wp-content --from 20230205104451
 После положительной проверки и разрешение от менеджера открытие сайта на индексирование просто удалить **robots.txt**, а **robots-indexed.txt** переименовываем в **robots.txt**
 
 Примеры
-[robots.txt](https://github.com/timoleon001/drops_recovery/robots.txt) - сайт закрыт на индексирование
-[robots-indexed.txt](https://github.com/timoleon001/drops_recovery/robots-indexed.txt) - на сайте разрешено интексирование поисковыми робатами, пример для WP
-[.htaccess](https://github.com/timoleon001/drops_recovery/.htaccess)
-[sitemap_index.xml](https://github.com/timoleon001/drops_recovery/sitemap_index.xml)
-[post-sitemap.xml](https://github.com/timoleon001/drops_recovery/post-sitemap.xml)
-[images_sitemap.xml](https://github.com/timoleon001/drops_recovery/images_sitemap.xml)
+[robots.txt](https://github.com/timoleon001/drops_recovery/blob/main/robots.txt) - сайт закрыт на индексирование
+[robots-indexed.txt](https://github.com/timoleon001/drops_recovery/blob/main/robots-indexed.txt) - на сайте разрешено интексирование поисковыми робатами, пример для WP
+[.htaccess](https://github.com/timoleon001/drops_recovery/blob/main/.htaccess)
+[sitemap_index.xml](https://github.com/timoleon001/drops_recovery/blob/main/sitemap_index.xml)
+[post-sitemap.xml](https://github.com/timoleon001/drops_recovery/blob/main/post-sitemap.xml)
+[images_sitemap.xml](https://github.com/timoleon001/drops_recovery/blob/main/images_sitemap.xml)
 
 post-sitemap.xml и images_sitemap.xml удобно создавать при помощи  Screaming Frog
 

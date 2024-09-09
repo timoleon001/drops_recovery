@@ -8,7 +8,7 @@
 2. Детально ознакамливаемся со снимками сайта по дням перебирая даты снимков когда сайт еще работал, имел актуальную версию и соответствует тематике. Открывать ссылки только синего цвета, зеленым помечены редиректы и там точно не будет
 
 https://prnt.sc/7dJFXEBb-uJT
-![First image](https://github.com/timoleon001/drops_recovery/images/img_01.png)
+![First image](https://github.com/timoleon001/drops_recovery/blob/main/images/img_01.png?raw=true)
 
 3. Подобрав нужный снимок, перед сохранением, вносим изменения в урл
 В адресе, где указана дата снимка `20171221145549` в конец добавить `id_`.
@@ -41,7 +41,7 @@ https://prnt.sc/7dJFXEBb-uJT
     <body>
         <header id="header">
             <a href="#intro" class="b-header_logo b-header_logo__pic">
-                <img src="https://github.com/timoleon001/drops_recovery/images/logo.png" title="Vaims" alt="Logo company Dark"  height="100" class="m-transition" >
+                <img src="https://github.com/timoleon001/drops_recovery/blob/main/images/logo.png?raw=true" title="Vaims" alt="Logo company Dark"  height="100" class="m-transition" >
             </a>
             <nav class="b-header_nav">
                 <a href="#overview">поиск туров</a>
@@ -63,7 +63,7 @@ https://prnt.sc/7dJFXEBb-uJT
 6. Открыть этот домен или просто файл index.html в браузере и через консоль можно посмотреть все недостающие файлы.
 
 https://prnt.sc/hePO09n6hPyj
-![First image](https://github.com/timoleon001/drops_recovery/images/img_02.png)
+![First image](https://github.com/timoleon001/drops_recovery/blob/main/images/img_02.png?raw=true)
 
 Открываем по очереди недостающие файлы в новой вкладке браузера и в начало подставляем урл вебАрхива с соответствующей датой.
 Например для `http://stomorey.com/assets/plain/css/template.css` получим  `https://web.archive.org/web/20171020024130id_/http://stomorey.com/assets/plain/css/template.css`
